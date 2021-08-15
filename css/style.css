@@ -1,0 +1,384 @@
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+.navbar {
+  padding: 1rem 0;
+}
+
+.navbar .nav-item .nav-link {
+  color: #252525;
+  font-size: 1rem;
+  padding: 0 1.2em;
+  font-weight: 600;
+  text-transform: uppercase;
+  -webkit-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+}
+
+.navbar .nav-item .nav-link.active {
+  color: #31d7ce;
+}
+
+.navbar .nav-item .nav-link:hover {
+  color: #31d7ce;
+  -webkit-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+}
+
+#hero {
+  background: url(/img/hero-bg.png) no-repeat center/cover;
+  padding: 20em 0;
+}
+
+#hero h1 {
+  font-size: 4.375rem;
+  color: #31d7ce;
+  text-transform: uppercase;
+}
+
+#hero a {
+  color: #31d7ce;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  margin-top: 1.5em;
+}
+
+#weare {
+  padding: 4.375em 0;
+}
+
+#weare h2 {
+  font-size: 1.875rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #252525;
+}
+
+#weare p {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.875rem;
+  color: #252525;
+}
+
+#weare a {
+  color: #fff;
+  background: #0dac88;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.75rem;
+}
+
+#weare a:hover {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+#myser {
+  padding: 4.375em 0;
+}
+
+#myser h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #252525;
+}
+
+#myser .ser-box {
+  -webkit-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+}
+
+#myser .ser-box:hover {
+  -webkit-box-shadow: 2px 4px 10px #b89090;
+          box-shadow: 2px 4px 10px #b89090;
+  -webkit-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+}
+
+#myser .ser-box .ser-icon {
+  width: 175px;
+  height: 65px;
+  line-height: 65px;
+  background: #31d7ce;
+  text-align: center;
+  border-radius: 14px;
+}
+
+#myser .ser-box .ser-content {
+  font-family: "Poppins", sans-serif;
+}
+
+#myser .ser-box .ser-content h4 {
+  font-weight: 600;
+  color: #444444;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+#myser .ser-box .ser-content p {
+  font-size: 0.875rem;
+  color: #555555;
+}
+
+#myworks {
+  padding: 4.375em 0;
+}
+
+#myworks h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #252525;
+}
+
+#myworks .img {
+  position: relative;
+}
+
+#myworks .img:hover .img--overlay {
+  opacity: 1;
+  -webkit-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+
+#myworks .img .img--overlay {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 0;
+  left: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.664);
+  opacity: 0;
+  -webkit-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+
+#myworks .img .img--overlay a {
+  font-size: 0.875rem;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#counter {
+  background: url(/img/counter-bg.png) no-repeat center/cover;
+  padding: 3.125em 0;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+
+#counter span {
+  font-weight: 600;
+  font-size: 1.875rem;
+  display: block;
+  font-family: "Poppins", sans-serif;
+  margin: 0.1em 0;
+}
+
+#counter p {
+  font-weight: 500;
+  font-size: 0.938rem;
+}
+
+#rob {
+  padding: 4.375em 0;
+}
+
+#rob h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #252525;
+}
+
+#rob .blog-box h4 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 1em;
+  color: #252525;
+}
+
+#rob .blog-box p {
+  font-family: "Open Sans", sans-serif;
+  color: #858585;
+}
+
+#rob .blog-box a {
+  text-decoration: none;
+  color: #444444;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.813rem;
+}
+
+#rob .blog-box a:hover {
+  text-decoration: underline;
+}
+
+#contact {
+  background: #50d18d;
+}
+
+#contact p {
+  font-weight: 600;
+  font-size: 1.563rem;
+  color: #fff;
+  margin-top: 0.5rem;
+}
+
+#contact a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.85rem;
+  background: #4be694;
+  color: #fff;
+}
+
+#contact a:hover {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+footer {
+  position: relative;
+  background: #000415;
+  padding: 8em 0 1em;
+  color: #fff;
+}
+
+footer .f-icon p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9rem;
+}
+
+footer .copyr {
+  color: #818181;
+  font-size: 0.875rem;
+  text-align: center;
+  margin-top: 5em;
+}
+
+footer span {
+  position: absolute;
+  bottom: 8%;
+  right: 4%;
+}
+
+@media (max-width: 991.98px) {
+  .navbar .nav-item .nav-link {
+    padding: 0.5em 0;
+  }
+  #weare {
+    padding: 2.375em 0;
+  }
+  #weare h2 {
+    font-size: 1.25rem;
+  }
+  #weare p {
+    font-size: 0.675rem;
+  }
+  #myser {
+    padding: 2.375em 0;
+  }
+  #myser h3 {
+    font-size: 2rem;
+  }
+  #myser .ser-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  #myser .ser-box .ser-icon {
+    width: 70px;
+    margin-bottom: 0.5em;
+  }
+  #myworks {
+    padding: 2.375em 0;
+  }
+  #myworks h3 {
+    font-size: 2rem;
+  }
+  #rob {
+    padding: 2.375em 0;
+  }
+  #rob h3 {
+    font-size: 2rem;
+  }
+  #rob .blog-box h4 {
+    font-size: 0.8rem;
+  }
+  #rob .blog-box p {
+    font-size: 0.675rem;
+  }
+  #rob .blog-box a {
+    font-size: 0.75rem;
+  }
+  footer {
+    text-align: center;
+    padding-top: 5em;
+  }
+  footer .f-icon i {
+    margin-bottom: 0.5em;
+  }
+  footer span {
+    bottom: 7%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #hero {
+    padding: 10em 0;
+  }
+  #weare h2 {
+    margin-top: 0.5em;
+  }
+  #rob .blog-box h4 {
+    font-size: 1.25rem;
+  }
+  #rob .blog-box p {
+    font-size: 1rem;
+  }
+  #rob .blog-box a {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #hero h1 {
+    font-size: 3rem;
+  }
+  footer .copyr {
+    font-size: 0.8rem;
+    margin-top: 2em;
+  }
+  footer span {
+    bottom: 0%;
+    right: 47%;
+  }
+}

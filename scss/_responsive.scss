@@ -1,0 +1,118 @@
+@media (max-width: 991.98px) {
+  .navbar {
+    .nav-item {
+      .nav-link {
+        padding: 0.5em 0;
+      }
+    }
+  }
+  #weare {
+    padding: 2.375em 0;
+
+    h2 {
+      font-size: 1.25rem;
+    }
+
+    p {
+      font-size: 0.675rem;
+    }
+  }
+  #myser {
+    padding: 2.375em 0;
+
+    h3 {
+      font-size: 2rem;
+    }
+    .ser-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      .ser-icon {
+        width: 70px;
+        margin-bottom: 0.5em;
+      }
+    }
+  }
+  #myworks {
+    padding: 2.375em 0;
+
+    h3 {
+      font-size: 2rem;
+    }
+  }
+  #rob {
+    padding: 2.375em 0;
+
+    h3 {
+      font-size: 2rem;
+    }
+    .blog-box {
+      h4 {
+        font-size: 0.8rem;
+      }
+      p {
+        font-size: 0.675rem;
+      }
+      a {
+        font-size: 0.75rem;
+      }
+    }
+  }
+  footer {
+    text-align: center;
+    padding-top: 5em;
+    .f-icon {
+      i {
+        margin-bottom: 0.5em;
+      }
+    }
+    span {
+      bottom: 7%;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  #hero {
+    padding: 10em 0;
+  }
+
+  #weare {
+    h2 {
+      margin-top: 0.5em;
+    }
+  }
+  #rob {
+    .blog-box {
+      h4 {
+        font-size: 1.25rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+      a {
+        font-size: 0.95rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  #hero {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+  footer {
+    .copyr {
+      font-size: 0.8rem;
+      margin-top: 2em;
+    }
+    span {
+      bottom: 0%;
+      right: 47%;
+    }
+  }
+}

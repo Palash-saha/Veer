@@ -1,0 +1,277 @@
+@import "config";
+@import "utilities";
+
+// =====GLOBAL======
+
+body {
+  font-family: $font-stack2;
+  overflow-x: hidden;
+}
+
+// ====NAVIGATION====
+
+.navbar {
+  padding: 1rem 0;
+  .nav-item {
+    .nav-link {
+      color: $h-color;
+      font-size: 1rem;
+      padding: 0 1.2em;
+      font-weight: 600;
+      text-transform: uppercase;
+      transition: all linear 0.2s;
+
+      &.active {
+        color: $primary-color;
+      }
+      &:hover {
+        color: $primary-color;
+        transition: all linear 0.2s;
+      }
+    }
+  }
+}
+
+// ====HERO====
+
+#hero {
+  background: url(/img/hero-bg.png) no-repeat center/ cover;
+  padding: 20em 0;
+  h1 {
+    font-size: 4.375rem;
+    color: $primary-color;
+    text-transform: uppercase;
+  }
+  a {
+    color: $primary-color;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    margin-top: 1.5em;
+  }
+}
+
+// ====WE ARE====
+
+#weare {
+  padding: 4.375em 0;
+
+  h2 {
+    font-size: 1.875rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: $h-color;
+  }
+
+  p {
+    font-family: $font-stack2;
+    font-size: 0.875rem;
+    color: $h-color;
+  }
+  a {
+    color: #fff;
+    background: $primary-bg;
+    font-family: $font-stack2;
+    font-size: 0.75rem;
+
+    &:hover {
+      transform: scale(0.95);
+    }
+  }
+}
+
+// ====MY SERVICES====
+
+#myser {
+  padding: 4.375em 0;
+
+  h3 {
+    font-family: $font-stack2;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    color: $h-color;
+  }
+  .ser-box {
+    transition: all linear 0.2s;
+
+    &:hover {
+      box-shadow: 2px 4px 10px rgb(184, 144, 144);
+      transition: all linear 0.2s;
+    }
+    .ser-icon {
+      width: 175px;
+      height: 65px;
+      line-height: 65px;
+      background: $primary-color;
+      text-align: center;
+      border-radius: 14px;
+    }
+    .ser-content {
+      font-family: $font-stack2;
+      h4 {
+        font-weight: 600;
+        color: $sh-color;
+        font-size: 1rem;
+        text-transform: uppercase;
+      }
+      p {
+        font-size: 0.875rem;
+        color: $text-color1;
+      }
+    }
+  }
+}
+
+// ====MY WORKS====
+
+#myworks {
+  padding: 4.375em 0;
+
+  h3 {
+    font-family: $font-stack2;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    color: $h-color;
+  }
+  .img {
+    position: relative;
+
+    &:hover .img--overlay {
+      opacity: 1;
+      transition: all linear 0.3s;
+    }
+    .img--overlay {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      top: 0;
+      left: 0;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.664);
+      opacity: 0;
+      transition: all linear 0.3s;
+
+      a {
+        font-size: 0.875rem;
+        font-family: $font-stack1;
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+// ====COUNTER====
+
+#counter {
+  background: url(/img/counter-bg.png) no-repeat center/ cover;
+  padding: 3.125em 0;
+  font-family: $font-stack1;
+  color: #fff;
+  span {
+    font-weight: 600;
+    font-size: 1.875rem;
+    display: block;
+    font-family: $font-stack2;
+    margin: 0.1em 0;
+  }
+  p {
+    font-weight: 500;
+    font-size: 0.938rem;
+  }
+}
+
+// ====READ OUR BLOG====
+
+#rob {
+  padding: 4.375em 0;
+
+  h3 {
+    font-family: $font-stack2;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    color: $h-color;
+  }
+
+  .blog-box {
+    h4 {
+      text-transform: uppercase;
+      font-size: 1rem;
+      font-weight: 700;
+      margin-top: 1em;
+      color: $h-color;
+    }
+    p {
+      font-family: $font-stack1;
+      color: $text-color2;
+    }
+    a {
+      text-decoration: none;
+      color: $sh-color;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 0.813rem;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+// ====CONTACT====
+
+#contact {
+  background: $contact-bg;
+  p {
+    font-weight: 600;
+    font-size: 1.563rem;
+    color: #fff;
+    margin-top: 0.5rem;
+  }
+  a {
+    font-family: $font-stack1;
+    font-size: 0.85rem;
+    background: #4be694;
+    color: #fff;
+
+    &:hover {
+      transform: scale(0.95);
+    }
+  }
+}
+
+// =======FOOTER========
+
+footer {
+  position: relative;
+  background: $footer-bg;
+  padding: 8em 0 1em;
+  color: #fff;
+  .f-icon {
+    p {
+      font-family: $font-stack1;
+      font-size: 0.9rem;
+    }
+  }
+  .copyr {
+    color: #818181;
+    font-size: 0.875rem;
+    text-align: center;
+    margin-top: 5em;
+  }
+  span {
+    position: absolute;
+    bottom: 8%;
+    right: 4%;
+  }
+}
+
+// =====RESPONSIVE=====
+
+@import "responsive";
